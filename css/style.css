@@ -1,0 +1,89 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background: url("../background.jpg");
+	background-size: 100%;
+}
+
+.container {
+	max-width: 992px;
+}
+
+header div {
+    background-color: #f7f1cf; 
+    color: #453e38;
+    box-shadow: 5px 0 10px #000;
+    font-family: Verdana;
+}
+
+.list {
+	margin: 30px 10px;
+	padding: 0;
+}
+
+.list li {
+	list-style-type: none;
+	background-color: #f7f1cf; 
+    color: #453e38;
+    padding: 10px;
+    margin: 3px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    font-size: 20px;
+}
+
+.glyphicon-remove {
+	float: right;
+}
+
+button.btn {
+	width: 100%;
+	border-radius: 0;
+	font-size: 20px;
+	font-weight: 700;
+	background-color: #EA435F;
+	border: 1px solid #EA435F;
+}
+
+button.btn:hover {
+	background-color: #EA435F;
+	border: 1px solid #EA435F;
+}
+
+button.btn:active:focus {
+	background-color: #EA435F;
+	border: 1px solid #EA435F;
+	outline: none;
+}
+
+div.col-sm-10 {
+	padding-right: 2px;
+}
+
+div.col-sm-2 {
+	padding-left: 2px;
+}
+
+input.form-control {
+	border-radius: 0;
+	font-size: 20px;
+	height: 42px;
+	border: 1px solid #474747;
+}
+
+input.form-control:focus {
+	border: 1px solid #474747;
+	box-shadow: 0 0 10px #000;
+}
+
+.glyphicon {
+	cursor: pointer;
+}
+
+.glyphicon-star.active {
+	color: #ffcc00;
+}
+
+.no-gutter {
+	padding-bottom: 25px;
+}
